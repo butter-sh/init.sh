@@ -1,0 +1,17 @@
+name: "init.sh"
+version: "1.0.0"
+description: "A bash init framework"
+author: "valknar@pivoine.art"
+license: "MIT"
+
+# Dependencies
+references:
+  # Example: Add bash utility libraries here
+  # - https://github.com/username/bash-colors.git
+
+# Entry point
+main: "init.sh"
+
+# Scripts
+scripts:
+  init: "bash source init.sh"
