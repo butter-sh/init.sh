@@ -1,0 +1,94 @@
+
+[0;36m═══════════════════════════════════════════════════════[0m
+[0;36m  Init CLI Arguments Tests[0m
+[0;36m═══════════════════════════════════════════════════════[0m
+
+[0;32m[PASS][0m Short help should show usage
+[0;32m[PASS][0m Should show options
+[0;32m[PASS][0m Long help should show usage
+[0;32m[PASS][0m Should show templates
+[0;32m[PASS][0m Should show version
+[0;32m[PASS][0m Should mention butter.sh
+[0;32m[PASS][0m Should start recording
+[0;32m[PASS][0m record alias should work
+[0;32m[PASS][0m Should play recording
+[0;32m[PASS][0m Should upload recording
+[0;32m[PASS][0m Should show stop instructions
+[0;32m[PASS][0m Should mention Ctrl+D
+[0;32m[PASS][0m Should show list header
+[0;32m[PASS][0m ls alias should work
+[0;32m[PASS][0m Should process first flag
+[0;32m[PASS][0m Should fail without filename
+[0;32m[PASS][0m Should show error message
+[0;32m[PASS][0m Flag form should work
+[0;32m[PASS][0m lowercase should work
+[0;32m[PASS][0m Dash form should work
+[0;32m[PASS][0m Should handle special chars in filename
+[0;32m[PASS][0m Should handle quoted args
+[0;32m[PASS][0m Should not crash with flags
+[0;32m[PASS][0m Should handle numeric names
+[0;32m[PASS][0m Should handle normally
+ℹ Created /tmp/tmp.B7YtkZF9RE/demos directory
+
+═══════════════════════════════════════════
+  🎬 Starting asciinema recording
+═══════════════════════════════════════════
+
+Recording: /tmp/tmp.B7YtkZF9RE/demos/demo1.cast
+Title: demo1
+
+Tips for great demos:
+  • Clear your terminal first (Ctrl+L)
+  • Set a clean prompt
+  • Type commands slowly
+  • Add pauses with 'sleep 2' between commands
+  • Use colors for better visibility
+
+To stop recording:
+  • Press Ctrl+D or type exit
+
+Starting in 3 seconds...
+✓ Recording saved: /tmp/tmp.B7YtkZF9RE/demos/demo1.cast
+
+ℹ Next steps:
+  init.sh play demo1.cast      # Play it back
+  init.sh upload demo1.cast    # Upload to asciinema.org
+
+
+═══════════════════════════════════════════
+  🎬 Starting asciinema recording
+═══════════════════════════════════════════
+
+Recording: /tmp/tmp.B7YtkZF9RE/demos/demo2.cast
+Title: demo2
+
+Tips for great demos:
+  • Clear your terminal first (Ctrl+L)
+  • Set a clean prompt
+  • Type commands slowly
+  • Add pauses with 'sleep 2' between commands
+  • Use colors for better visibility
+
+To stop recording:
+  • Press Ctrl+D or type exit
+
+Starting in 3 seconds...
+✓ Recording saved: /tmp/tmp.B7YtkZF9RE/demos/demo2.cast
+
+ℹ Next steps:
+  init.sh play demo2.cast      # Play it back
+  init.sh upload demo2.cast    # Upload to asciinema.org
+
+[0;32m[PASS][0m Should list first demo
+[0;32m[PASS][0m Should list second demo
+
+[0;36m═══════════════════════════════════════════════════════[0m
+[0;36m  TEST SUMMARY[0m
+[0;36m═══════════════════════════════════════════════════════[0m
+
+  Total Tests:  27
+  [0;32mPassed:       27[0m
+  [0;31mFailed:       0[0m
+  Pass Rate:    100%
+
+[0;32m✓ All tests passed![0m

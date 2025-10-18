@@ -1,0 +1,56 @@
+
+[0;36m═══════════════════════════════════════════════════════[0m
+[0;36m  Init Error Handling and Edge Cases Tests[0m
+[0;36m═══════════════════════════════════════════════════════[0m
+
+ℹ Generating arty.yml...
+✓ Generated arty.yml (with asciinema commands!)
+[0;32m[PASS][0m Should have name field
+ℹ Generating arty.yml...
+✓ Generated arty.yml (with asciinema commands!)
+[0;32m[PASS][0m Should create file with special chars
+ℹ Generating arty.yml...
+✓ Generated arty.yml (with asciinema commands!)
+[0;32m[PASS][0m Should handle long names
+ℹ Generating arty.yml...
+✓ Generated arty.yml (with asciinema commands!)
+[0;32m[PASS][0m Should have author field even if empty
+[0;32m[PASS][0m Got cannot create directory error
+ℹ Creating project structure...
+✓ Project structure created
+[0;32m[PASS][0m Should create basic directories
+ℹ Creating project structure...
+✓ Project structure created
+[0;32m[PASS][0m Should not delete existing content
+[0;32m[PASS][0m Should preserve existing files
+[0;32m[PASS][0m Should handle deep paths
+[0;32m[PASS][0m Should handle concurrent creation
+[0;32m[PASS][0m Directories should exist
+ℹ Creating project structure...
+✓ Project structure created
+[0;32m[PASS][0m Should handle symlinks
+ℹ Creating project structure...
+✓ Project structure created
+[0;32m[PASS][0m Should handle spaces in paths
+ℹ Generating arty.yml...
+✓ Generated arty.yml (with asciinema commands!)
+[0;32m[PASS][0m Should handle unicode
+ℹ Creating project structure...
+✓ Project structure created
+[0;32m[PASS][0m Should create parent directories
+ℹ Creating project structure...
+✓ Project structure created
+[0;32m[PASS][0m Should handle relative paths
+[0;32m[PASS][0m Should attempt to record
+[0;32m[PASS][0m Should use default demos directory
+
+[0;36m═══════════════════════════════════════════════════════[0m
+[0;36m  TEST SUMMARY[0m
+[0;36m═══════════════════════════════════════════════════════[0m
+
+  Total Tests:  18
+  [0;32mPassed:       18[0m
+  [0;31mFailed:       0[0m
+  Pass Rate:    100%
+
+[0;32m✓ All tests passed![0m

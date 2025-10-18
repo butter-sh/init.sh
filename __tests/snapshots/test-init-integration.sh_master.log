@@ -1,0 +1,265 @@
+
+[0;36m═══════════════════════════════════════════════════════[0m
+[0;36m  Init Integration Tests[0m
+[0;36m═══════════════════════════════════════════════════════[0m
+
+[0;32m[PASS][0m Should start recording
+[0;32m[PASS][0m Should create cast file
+[0;32m[PASS][0m Should list the recording
+[0;32m[PASS][0m Should play recording
+[0;32m[PASS][0m Should upload recording
+[0;32m[PASS][0m Should show URL
+ℹ Created /tmp/tmp.EvnRplGOJh/demos directory
+
+═══════════════════════════════════════════
+  🎬 Starting asciinema recording
+═══════════════════════════════════════════
+
+Recording: /tmp/tmp.EvnRplGOJh/demos/demo1.cast
+Title: demo1
+
+Tips for great demos:
+  • Clear your terminal first (Ctrl+L)
+  • Set a clean prompt
+  • Type commands slowly
+  • Add pauses with 'sleep 2' between commands
+  • Use colors for better visibility
+
+To stop recording:
+  • Press Ctrl+D or type exit
+
+Starting in 3 seconds...
+Recording to /tmp/tmp.EvnRplGOJh/demos/demo1.cast
+✓ Recording saved: /tmp/tmp.EvnRplGOJh/demos/demo1.cast
+
+ℹ Next steps:
+  init.sh play demo1.cast      # Play it back
+  init.sh upload demo1.cast    # Upload to asciinema.org
+
+
+═══════════════════════════════════════════
+  🎬 Starting asciinema recording
+═══════════════════════════════════════════
+
+Recording: /tmp/tmp.EvnRplGOJh/demos/demo2.cast
+Title: demo2
+
+Tips for great demos:
+  • Clear your terminal first (Ctrl+L)
+  • Set a clean prompt
+  • Type commands slowly
+  • Add pauses with 'sleep 2' between commands
+  • Use colors for better visibility
+
+To stop recording:
+  • Press Ctrl+D or type exit
+
+Starting in 3 seconds...
+Recording to /tmp/tmp.EvnRplGOJh/demos/demo2.cast
+✓ Recording saved: /tmp/tmp.EvnRplGOJh/demos/demo2.cast
+
+ℹ Next steps:
+  init.sh play demo2.cast      # Play it back
+  init.sh upload demo2.cast    # Upload to asciinema.org
+
+
+═══════════════════════════════════════════
+  🎬 Starting asciinema recording
+═══════════════════════════════════════════
+
+Recording: /tmp/tmp.EvnRplGOJh/demos/demo3.cast
+Title: demo3
+
+Tips for great demos:
+  • Clear your terminal first (Ctrl+L)
+  • Set a clean prompt
+  • Type commands slowly
+  • Add pauses with 'sleep 2' between commands
+  • Use colors for better visibility
+
+To stop recording:
+  • Press Ctrl+D or type exit
+
+Starting in 3 seconds...
+Recording to /tmp/tmp.EvnRplGOJh/demos/demo3.cast
+✓ Recording saved: /tmp/tmp.EvnRplGOJh/demos/demo3.cast
+
+ℹ Next steps:
+  init.sh play demo3.cast      # Play it back
+  init.sh upload demo3.cast    # Upload to asciinema.org
+
+[0;32m[PASS][0m Should show demo1
+[0;32m[PASS][0m Should show demo2
+[0;32m[PASS][0m Should show demo3
+ℹ Created /tmp/tmp.l3Ir9FeQVN/demos directory
+
+═══════════════════════════════════════════
+  🎬 Starting asciinema recording
+═══════════════════════════════════════════
+
+Recording: /tmp/tmp.l3Ir9FeQVN/demos/demo-in-demos.cast
+Title: demo-in-demos
+
+Tips for great demos:
+  • Clear your terminal first (Ctrl+L)
+  • Set a clean prompt
+  • Type commands slowly
+  • Add pauses with 'sleep 2' between commands
+  • Use colors for better visibility
+
+To stop recording:
+  • Press Ctrl+D or type exit
+
+Starting in 3 seconds...
+Recording to /tmp/tmp.l3Ir9FeQVN/demos/demo-in-demos.cast
+✓ Recording saved: /tmp/tmp.l3Ir9FeQVN/demos/demo-in-demos.cast
+
+ℹ Next steps:
+  init.sh play demo-in-demos.cast      # Play it back
+  init.sh upload demo-in-demos.cast    # Upload to asciinema.org
+
+[0;32m[PASS][0m Should create in demos
+[0;32m[PASS][0m Should show current dir section
+[0;32m[PASS][0m Should show demos dir section
+[0;32m[PASS][0m Should show current dir file
+[0;32m[PASS][0m Should show demos dir file
+[0;32m[PASS][0m Should show title
+[0;32m[PASS][0m Should explain Ctrl+D
+[0;32m[PASS][0m Should explain exit
+[0;32m[PASS][0m Should show next steps
+[0;32m[PASS][0m Should suggest playing back
+[0;32m[PASS][0m Should suggest uploading
+ℹ Created /tmp/tmp.ldE1eUqgYp/demos directory
+
+═══════════════════════════════════════════
+  🎬 Starting asciinema recording
+═══════════════════════════════════════════
+
+Recording: /tmp/tmp.ldE1eUqgYp/demos/my-demo.cast
+Title: my-demo
+
+Tips for great demos:
+  • Clear your terminal first (Ctrl+L)
+  • Set a clean prompt
+  • Type commands slowly
+  • Add pauses with 'sleep 2' between commands
+  • Use colors for better visibility
+
+To stop recording:
+  • Press Ctrl+D or type exit
+
+Starting in 3 seconds...
+Recording to /tmp/tmp.ldE1eUqgYp/demos/my-demo.cast
+✓ Recording saved: /tmp/tmp.ldE1eUqgYp/demos/my-demo.cast
+
+ℹ Next steps:
+  init.sh play my-demo.cast      # Play it back
+  init.sh upload my-demo.cast    # Upload to asciinema.org
+
+[0;32m[PASS][0m Should create file
+[0;32m[PASS][0m Should not double extension
+[0;32m[PASS][0m Should play from current dir
+[0;32m[PASS][0m Should find in demos dir
+[0;32m[PASS][0m Should upload from current dir
+[0;32m[PASS][0m Should find in demos dir
+[0;32m[PASS][0m Should report file not found for play
+[0;32m[PASS][0m Should suggest list command
+[0;32m[PASS][0m Should report file not found for upload
+[0;32m[PASS][0m Play should fail without filename
+[0;32m[PASS][0m Play should show error message
+[0;32m[PASS][0m Upload should fail without filename
+[0;32m[PASS][0m Upload should show error message
+[0;32m[PASS][0m Should report no recordings
+[0;32m[PASS][0m Should suggest creating
+[0;32m[PASS][0m Should show rec command
+ℹ Created /tmp/tmp.4h8Stg7fNE/demos directory
+
+═══════════════════════════════════════════
+  🎬 Starting asciinema recording
+═══════════════════════════════════════════
+
+Recording: /tmp/tmp.4h8Stg7fNE/demos/test-demo.cast
+Title: test-demo
+
+Tips for great demos:
+  • Clear your terminal first (Ctrl+L)
+  • Set a clean prompt
+  • Type commands slowly
+  • Add pauses with 'sleep 2' between commands
+  • Use colors for better visibility
+
+To stop recording:
+  • Press Ctrl+D or type exit
+
+Starting in 3 seconds...
+Recording to /tmp/tmp.4h8Stg7fNE/demos/test-demo.cast
+✓ Recording saved: /tmp/tmp.4h8Stg7fNE/demos/test-demo.cast
+
+ℹ Next steps:
+  init.sh play test-demo.cast      # Play it back
+  init.sh upload test-demo.cast    # Upload to asciinema.org
+
+
+═══════════════════════════════════════════
+  🎬 Starting asciinema recording
+═══════════════════════════════════════════
+
+Recording: /tmp/tmp.4h8Stg7fNE/demos/test-demo.cast
+Title: test-demo
+
+Tips for great demos:
+  • Clear your terminal first (Ctrl+L)
+  • Set a clean prompt
+  • Type commands slowly
+  • Add pauses with 'sleep 2' between commands
+  • Use colors for better visibility
+
+To stop recording:
+  • Press Ctrl+D or type exit
+
+Starting in 3 seconds...
+✓ Recording saved: /tmp/tmp.4h8Stg7fNE/demos/test-demo.cast
+
+ℹ Next steps:
+  init.sh play test-demo.cast      # Play it back
+  init.sh upload test-demo.cast    # Upload to asciinema.org
+
+[0;32m[PASS][0m Should overwrite recording
+[0;32m[PASS][0m Should show asciinema section
+[0;32m[PASS][0m Should show rec command
+[0;32m[PASS][0m Should show play command
+[0;32m[PASS][0m Should show upload command
+[0;32m[PASS][0m Should show stop command
+[0;32m[PASS][0m Should show list command
+[0;32m[PASS][0m Should mention asciinema
+[0;32m[PASS][0m Should mention demo recording
+[0;32m[PASS][0m rec should work
+[0;32m[PASS][0m record should work
+[0;32m[PASS][0m list should work
+[0;32m[PASS][0m ls should work
+[0;32m[PASS][0m Should show tips header
+[0;32m[PASS][0m Should suggest clearing
+[0;32m[PASS][0m Should suggest slow typing
+[0;32m[PASS][0m Should suggest pauses
+[0;32m[PASS][0m Should explain stopping
+[0;32m[PASS][0m Should prompt to copy URL
+[0;32m[PASS][0m Should mention README
+[0;32m[PASS][0m Should show HTML embed code
+[0;32m[PASS][0m Should show URL pattern
+[0;32m[PASS][0m Should show filename
+[0;32m[PASS][0m Should report missing
+[0;32m[PASS][0m Should show macOS install
+[0;32m[PASS][0m Should show Ubuntu install
+[0;32m[PASS][0m Should show pip install
+[0;32m[PASS][0m Should link to docs
+
+[0;36m═══════════════════════════════════════════════════════[0m
+[0;36m  TEST SUMMARY[0m
+[0;36m═══════════════════════════════════════════════════════[0m
+
+  Total Tests:  64
+  [0;32mPassed:       64[0m
+  [0;31mFailed:       0[0m
+  Pass Rate:    100%
+
+[0;32m✓ All tests passed![0m

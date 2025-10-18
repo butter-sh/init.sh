@@ -1,0 +1,83 @@
+
+[0;36m═══════════════════════════════════════════════════════[0m
+[0;36m  Init Asciinema Functionality Tests[0m
+[0;36m═══════════════════════════════════════════════════════[0m
+
+[0;32m[PASS][0m Should detect missing asciinema
+[0;32m[PASS][0m Should show install instructions
+[0;32m[PASS][0m Should return non-zero
+[0;32m[PASS][0m Should pass when asciinema present
+ℹ Created /tmp/tmp.pnL0DU4KsQ/demos directory
+
+═══════════════════════════════════════════
+  🎬 Starting asciinema recording
+═══════════════════════════════════════════
+
+Recording: /tmp/tmp.pnL0DU4KsQ/demos/test-demo.cast
+Title: test-demo
+
+Tips for great demos:
+  • Clear your terminal first (Ctrl+L)
+  • Set a clean prompt
+  • Type commands slowly
+  • Add pauses with 'sleep 2' between commands
+  • Use colors for better visibility
+
+To stop recording:
+  • Press Ctrl+D or type exit
+
+Starting in 3 seconds...
+✓ Recording saved: /tmp/tmp.pnL0DU4KsQ/demos/test-demo.cast
+
+ℹ Next steps:
+  init.sh play test-demo.cast      # Play it back
+  init.sh upload test-demo.cast    # Upload to asciinema.org
+
+[0;32m[PASS][0m Should create demos directory
+[0;32m[PASS][0m Should use demo.cast as default
+[0;32m[PASS][0m Should handle .cast extension
+[0;32m[PASS][0m Should not double extension
+[0;32m[PASS][0m Should show tips
+[0;32m[PASS][0m Should show stop instructions
+[0;32m[PASS][0m Should mention Ctrl+D
+[0;32m[PASS][0m Should fail without filename
+[0;32m[PASS][0m Should show error message
+[0;32m[PASS][0m Should fail with nonexistent file
+[0;32m[PASS][0m Should show error message
+[0;32m[PASS][0m Should attempt to play
+[0;32m[PASS][0m Should fail without filename
+[0;32m[PASS][0m Should show error message
+[0;32m[PASS][0m Should fail with nonexistent file
+[0;32m[PASS][0m Should show error message
+[0;32m[PASS][0m Should show instructions
+[0;32m[PASS][0m Should mention README
+[0;32m[PASS][0m Should show header
+[0;32m[PASS][0m Should mention Ctrl+D
+[0;32m[PASS][0m Should mention exit command
+[0;32m[PASS][0m Should show next steps
+[0;32m[PASS][0m Should report no recordings
+[0;32m[PASS][0m Should suggest creating one
+[0;32m[PASS][0m Should show current directory section
+[0;32m[PASS][0m Should list first file
+[0;32m[PASS][0m Should list second file
+[0;32m[PASS][0m Should show demos directory section
+[0;32m[PASS][0m Should list first file
+[0;32m[PASS][0m Should list second file
+[0;32m[PASS][0m Should show filename
+[0;32m[PASS][0m Should suggest playing
+[0;32m[PASS][0m Should suggest uploading
+[0;32m[PASS][0m rec should work
+[0;32m[PASS][0m record should work
+[0;32m[PASS][0m list should work
+[0;32m[PASS][0m ls should work
+
+[0;36m═══════════════════════════════════════════════════════[0m
+[0;36m  TEST SUMMARY[0m
+[0;36m═══════════════════════════════════════════════════════[0m
+
+  Total Tests:  41
+  [0;32mPassed:       41[0m
+  [0;31mFailed:       0[0m
+  Pass Rate:    100%
+
+[0;32m✓ All tests passed![0m
